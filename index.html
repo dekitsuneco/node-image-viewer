@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body class="togglable">
+    <div class="container">
+      <h1>Welcome to Gallery</h1>
+      <div class="toggler">
+        <a href="#" class="togglable themetoggle">
+          Toggle theme
+          <span class="material-icons">wb_sunny</span>
+        </a>
+      </div>
+
+      <section>
+        <div class="slider">
+          <div class="slider-line">
+            <!-- Slider here -->
+          </div>
+          <button class="togglable slider-prev">Prev</button>
+          <button class="togglable slider-next">Next</button>
+        </div>
+      </section>
+      <hr class="togglable">
+
+      <section>
+        <div class="gallery">
+          <!-- Gallery here -->
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="toggle.js"></script>
+    <script type="module" src="slider.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+
+</html>
