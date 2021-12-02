@@ -1,5 +1,6 @@
 # node-image-viewer
-Complicated application which in its core is a gallery app.
+A complicated application that at its core is a gallery app with image-slider and theme-toggler.
+
 # Let's break it down:
 * First, server side code is downloading particular set of images from external API.
 So to apply the aforesaid, you must run '**npm start**' from <*server*> folder.
